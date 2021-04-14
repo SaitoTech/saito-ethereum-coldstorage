@@ -36,7 +36,7 @@ Before this project can be used for general purposes, some of the scripts will n
 
 # Setup
 
-### 1) Install nodejs and it's dependencies onto a clone of your cold storage box. In the case of Raspberry Pi, it was running on an ARM processor, so it was necessary to have a 2nd Raspberry Pi or at least a 2nd SD card to store the system on.
+Install nodejs and it's dependencies onto a clone of your cold storage box. In the case of Raspberry Pi, it was running on an ARM processor, so it was necessary to have a 2nd Raspberry Pi or at least a 2nd SD card to store the system on.
 
 Boot the "hot" clone and run the following script:
 
