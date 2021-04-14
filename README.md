@@ -21,6 +21,8 @@ The setup we made was done with Ubuntu Server on a Raspberry Pi. The cold storag
 
 Before this project can be used for general purposes, some of the scripts will need to be cleaned up. In earlier designs of our key-storage scheme, all 3 owners were meant to be kept in cold storage, so we also created the mintRaw and sendRaw scripts. mintRaw creates a raw transaction which can then be copied over to an online wallet and played via the sendRaw script. This pattern could be used in general as a nice way to do cold storage with nothing but a bash command line. In general, any transaction that needs to be created offline and played online could follow this same pattern, sendRaw should work as-is. A comparison of mint.js vs mintRaw.js will demonstrate the technique.
 
+For assistance, reach out to clay at saito dot io.
+
 # TODO
 
 1) Create copies of each script so they'll all work in both raw and "hot" mode. e.g. we need something like transferEth.js called transferEthRaw.js which works like mintRaw that can then be sent to ETH network via sendRaw. 
