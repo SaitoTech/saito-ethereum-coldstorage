@@ -1,5 +1,5 @@
 
-# Purpose:
+# Purpose
 
 An all-in-one solution for cold storage of ETH and ERC20 tokens.
 
@@ -15,7 +15,7 @@ This project is a fork of saito-evm-token(https://github.com/SaitoTech/saito-evm
 
 Although we don't have the bandwidth the generalize this project for use with any ERC20 at the moment, we are forking it and giving it to the community in hopes that perhaps someone else will take it the last mile or we will make time to do this in the future after the Saito IDO has fniished launching and we have more time and resources for projects like this.
 
-# How it works:
+# How it works
 
 The setup we made was done with Ubuntu Server on a Raspberry Pi. The cold storage box only needs nodejs, so any other distribution should work fairly easily, but the tutorial below will help if you're running Ubuntu Server or any other distribution with a debian-based package manager.
 
@@ -129,7 +129,9 @@ encfs ~/media/usb/encrypted /media/decryptedMountPoint
 
 # Use
 
-extract saito-evm-token.tar to somewhere reasonable and use it. Any of the node-based scripts will run, however the truffle scripts can only be run on a "hot" machine.
+Add a file called 15-word mnemonic to the root of the project. This will seed your truffle accounts. 
+
+Extract saito-evm-token.tar to somewhere reasonable and use it. Any of the node-based scripts will run, however the truffle scripts can only be run on a "hot" machine.
 
 See the README.md at the root of https://github.com/SaitoTech/saito-evm-token/ for some clues.
 
