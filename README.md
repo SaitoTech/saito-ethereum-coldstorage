@@ -5,11 +5,11 @@ An all-in-one solution for cold storage of ETH and ERC20 tokens.
 
 # How it works
 
-Private keys for a web3 wallet are held in an encrypted file on a offline(never plugged into the network) cold-storage system based on Linux. When transactions need to be sent from the cold-storage, they can build built and signed on the cold-storage machine and then sent to a "hot" system with access to the internet and the ETH network.
+Private keys for a web3 wallet are held in an encrypted file on a offline(never plugged into the network) cold-storage system based on Linux. When transactions need to be sent from the cold-storage they can be built and signed on the cold-storage machine and then sent as raw transactions to a "hot" system with access to the internet and then broadcast to the ETH network.
 
 At Saito we used Ubuntu Server on a Raspberry Pi, so the scripts and documentation below will help you get a setup like that.
 
-The cold storage box only needs nodejs, so any other distribution should work fairly easily, but the scripts below will help if you're running Ubuntu Server or any other distribution with a debian-based package manager.
+The cold storage box only needs nodejs, so any other distribution should work fairly easily, but you'll need to install nodejs on the system. The scripts below will help if you're running Ubuntu Server or any other distribution with a debian-based package manager.
 
 # Origin
 
